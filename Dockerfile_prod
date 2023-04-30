@@ -1,0 +1,27 @@
+FROM node:14
+
+ENV PORT 3000
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
+
+# Create app directory
+RUN mkdir -p /srv/app
+WORKDIR /srv/app
+
+# install app dependencies
+COPY package.json ./
+COPY package-lock.json ./
+
+
+# add app
+COPY . ./
+
+RUN npm install --silent
+RUN npm install -g serve
+
+# Building app
+# RUN npm run build
+EXPOSE 3000
+RUN npm run build
+# Running the app
+CMD "npx" "serve" "-s" "build"
