@@ -15,7 +15,7 @@
     "predeploy": "npm run build && react-snap",
     "deploy": "gh-pages -d build",
     "start": "$(npm bin)/react-scripts start",
-    "lint": "eslint $(git ls-files '*.js')",
+    "lint": "eslint --fix --ext .js,.jsx .)",
     "test": "npx jest",
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js"
   },
@@ -53,6 +53,12 @@
     "eslint-plugin-react": "^7.32.2",
     "sass": "^1.62.0",
     "source-map-explorer": "^2.5.3"
+  },
+  "eslintConfig": {
+    "rules": {
+      "linebreak-style": 0,
+      "global-require": 0
+    }
   },
   "browserslist": {
     "production": [
