@@ -13,23 +13,20 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Hadel Ladghem</h2>
-        <p><a href="mailto:Hadel@hladghem.com">Hadel@hladghem.com</a></p>
+        <p><a href="mailto:ladghem.hadel@gmail.com">ladghem.hadel@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
-      <p>Hi, I&apos;m Hadel. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni,
-        and the VP of Engineering at <a href="https://smileidentity.com">Smile Identity</a>. Previously,
-        I was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>
-        , co-founder of <a href="https://matroid.com">Matroid</a>, and worked at
-        {' '}<a href="https://planet.com">Planet</a> and <a href="https://facebook.com">Facebook</a>.
+      <h2>Qui suis-je</h2>
+      <p>Hello, je suis Hadel. Alternant chez  <a href="https://www.acssi.fr/">ACSSI</a> en tant que consultant technico-fonctionel SAP. En parallèle à cela je prépare l'obtention d'un BTS SIO avec la  <a href="https://www.cfajeanbosco.fr/ufa/ufa-fresc/">FRESC </a>
+       à Roubaix !
       </p>
-      <ul className="actions">
+      {/* <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">En savoir plus</Link> : <Link to="/about.js" className="button">About Me</Link>}
         </li>
-      </ul>
+      </ul> */}
     </section>
 
     <section id="footer">

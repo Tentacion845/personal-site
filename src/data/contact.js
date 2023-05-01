@@ -10,40 +10,40 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 const data = [
   {
-    link: 'https://github.com/hladghem',
+    link: 'https://github.com/tentacion845',
     label: 'Github',
     icon: faGithub,
   },
+  // {
+  //   link: 'https://facebook.com/d',
+  //   label: 'Facebook',
+  //   icon: faFacebookF,
+  // },
+  // {
+  //   link: 'https://www.instagram.com/dangelosaurus/',
+  //   label: 'Instagram',
+  //   icon: faInstagram,
+  // },
   {
-    link: 'https://facebook.com/d',
-    label: 'Facebook',
-    icon: faFacebookF,
-  },
-  {
-    link: 'https://www.instagram.com/dangelosaurus/',
-    label: 'Instagram',
-    icon: faInstagram,
-  },
-  {
-    link: 'https://www.linkedin.com/in/Hadelldangelo',
+    link: 'https://www.linkedin.com/in/hadel-ladghem-a2342b224',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
-  {
-    link: 'https://angel.co/Hadel-d-angelo',
-    label: 'Angel List',
-    icon: faAngellist,
-  },
-  {
-    link: 'https://twitter.com/dangelosaurus',
-    label: 'Twitter',
-    icon: faTwitter,
-  },
-  {
-    link: 'mailto:Hadel.l.dangelo@gmail.com',
-    label: 'Email',
-    icon: faEnvelope,
-  },
+  // {
+  //   link: 'https://angel.co/Hadel-d-angelo',
+  //   label: 'Angel List',
+  //   icon: faAngellist,
+  // },
+  // {
+  //   link: 'https://twitter.com/dangelosaurus',
+  //   label: 'Twitter',
+  //   icon: faTwitter,
+  // },
+  // {
+  //   link: 'mailto:Hadel.l.dangelo@gmail.com',
+  //   label: 'Email',
+  //   icon: faEnvelope,
+  // },
 ];
 
 export default data;

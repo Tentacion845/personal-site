@@ -1,31 +1,40 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Main from '../layouts/Main';
+import Main from "../layouts/Main";
 
 const Index = () => (
   <Main
-    description={"Hadel Ladghem's personal website. New York based Stanford ICME graduate, "
-      + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'}
+    description={
+      "Hadel Ladghem's personal website."
+    }
   >
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2><Link to="/">About this site</Link></h2>
+          <h2>
+            <Link to="/">A propos de ce site</Link>
+          </h2>
           <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
+            Un joli, responsive, généré-statiquement, application react 
+            codé en JavaScript moderne.
           </p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+      <p>
+        {" "}
+        Bienvenue sur mon site web, vous pouvez {" "}
+        <Link to="/about">en savoir plus sur moi</Link>, ou alors consulter {" "}
+        {/* <Link to="/resume">resume</Link>,  */}
+        <Link to="/projects">mes projets</Link>, ou encore {" "}
+        {/* view <Link to="/stats">site statistics</Link>, or{" "} */}
+        <Link to="/contact">me contacter.</Link> 
       </p>
-      <p> Source available <a href="https://github.com/hladghem/personal-site">here</a>.</p>
+      <p>
+        {" "}
+        {/* Source available{" "}
+        <a href="https://github.com/hladghem/personal-site">here</a>. */}
+      </p>
     </article>
   </Main>
 );
