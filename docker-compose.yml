@@ -5,7 +5,7 @@ services:
     env_file: ../secrets/personal_site_hadel/frontend_prod.env
     container_name: personal_site_hadel_app_prod
     # command: "tail -f /dev/null"
-    command: bash -c 'npm run build && npm run start'
+    # command: bash -c 'npx serve -s build'
     restart: on-failure:5
     build:
       context: ./
