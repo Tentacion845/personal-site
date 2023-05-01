@@ -10,7 +10,7 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'contact',
+  'ladghem.hadel',
 ];
 
 const useInterval = (callback, delay) => {
@@ -68,9 +68,9 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={`mailto:${message}@ladghem.fr`}>
+      <a href={`mailto:${message}@gmail.com`}>
         <span>{message}</span>
-        <span>@ladghem.fr</span>
+        <span>@gmail.com</span>
       </a>
     </div>
   );
