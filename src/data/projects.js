@@ -32,16 +32,16 @@ const data = [
       + 'Ce projet a été coordonnés par les responsable des alternants dans mon entreprise afin de valider nos connaissances '
       + 'Ce programme comme tous ceux présent dans SAP sont en ABAP.',
   },
-  // {
-  //   title: 'Tell me a Story',
-  //   subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-  //   image: '/images/projects/catdetector.jpg',
-  //   date: '2023-04-01',
-  //   desc:
-  //     'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-  //     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-  //     + 'to continue hosting.',
-  // },
+  {
+    title: 'Tell me a Story',
+    link: 'https://github.com/Tentacion845/Tell_Me_Stories',
+    image: '/images/projects/history.jpg',
+    date: '2023-04-01',
+    desc:
+      'Un site web developpé en Symfony 6.'
+      + "Il contient un back office pour l'adminstrateur du site afin de fournir le site en histoires !"
+      + "Chaque jours une nouvelle anecdote historique s'affiche dans le site",
+  },
 ];
 
 export default data;
