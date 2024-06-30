@@ -11,8 +11,7 @@ services:
       context: ./
       dockerfile: Dockerfile_prod
     volumes:
-      - ./:/srv/app
-      - /srv/app/.next
+      - ./src/:/srv/app/src
     expose:
       - 3000
     networks:
